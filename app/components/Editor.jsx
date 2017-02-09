@@ -19,6 +19,10 @@ class Editor extends React.Component {
         const editor = ace.edit(this.state.editorId);
         editor.getSession().setMode('ace/mode/java');
         editor.setTheme('ace/theme/monokai');
+        editor.setOptions({
+            maxLines: 'Infinity',
+            highlightGutterLine: true
+        });
     }
 
     render() {

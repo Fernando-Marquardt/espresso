@@ -1,0 +1,6 @@
+.mainView {
+    background-color: #272822;
+    overflow-y: scroll;
+    position: relative;
+    width: 100%;
+}

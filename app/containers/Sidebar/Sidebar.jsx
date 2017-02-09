@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Treeview from '../components/Treeview';
+import Treeview from '../../components/Treeview';
 
 import styles from './Sidebar.css';
 

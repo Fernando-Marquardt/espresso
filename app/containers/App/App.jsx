@@ -1,7 +1,8 @@
 // @flow
 import React, { Component } from 'react';
 
-import Sidebar from './Sidebar';
+import Sidebar from '../Sidebar';
+import MainView from '../MainView';
 
 import styles from './App.css';
 
@@ -10,7 +11,7 @@ export default class App extends Component {
     return (
       <div className={styles.app}>
         <Sidebar />
-        <div>{this.props.children}</div>
+        <MainView />
       </div>
     );
   }
